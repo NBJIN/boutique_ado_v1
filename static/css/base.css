@@ -10,7 +10,7 @@ body {
     font-family: 'Lato';
 }
 
-/* from Bulma - icon class from another bootstrap framework called Bulma which will ensure whenever we use font awesome icons they will stay centered unless we manually change*/
+/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -18,16 +18,16 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
-/* to maintain the upercase font of the logo which will be uppercase throughout the site */
+
 .logo-font {
     text-transform: uppercase;
 }
-/* this ensures that the logo takes up only as much space as the text requires  */
+
 .main-logo-link {
     width: fit-content;
 }
 
-/* this is the styling that we will use throughout the site for the shop now buttons   */
+
 .shop-now-button {
     background: black;
     color: white;
