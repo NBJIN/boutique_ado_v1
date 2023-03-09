@@ -141,6 +141,44 @@ a.category-badge > span.badge:hover {
 
 }
 
+.arrow-secondary {
+    border-bottom-color: #28a745 !important;
+
+}
+
+.arrow-secondary {
+    border-bottom-color: #dc3545 !important;
+
+}
+
+.arrow-secondary {
+    border-bottom-color: #ffc107 !important;
+
+}
+
+.arrow-secondary {
+    border-bottom-color: #17a2b8 !important;
+
+}
+
+.arrow-secondary {
+    border-bottom-color: #f8f9fa !important;
+
+}
+
+.arrow-secondary {
+    border-bottom-color: #343a40 !important;
+
+}
+
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+
 .arrow-success {}
 /* -------------------------------- Media Queries */
 
