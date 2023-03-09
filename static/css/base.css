@@ -141,32 +141,32 @@ a.category-badge > span.badge:hover {
 
 }
 
-.arrow-secondary {
+.arrow-success {
     border-bottom-color: #28a745 !important;
 
 }
 
-.arrow-secondary {
+.arrow-danger {
     border-bottom-color: #dc3545 !important;
 
 }
 
-.arrow-secondary {
+.arrow-warning {
     border-bottom-color: #ffc107 !important;
 
 }
 
-.arrow-secondary {
+.arrow-info {
     border-bottom-color: #17a2b8 !important;
 
 }
 
-.arrow-secondary {
+.arrow-light {
     border-bottom-color: #f8f9fa !important;
 
 }
 
-.arrow-secondary {
+.arrow-dark {
     border-bottom-color: #343a40 !important;
 
 }
@@ -177,9 +177,6 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
-
-
-.arrow-success {}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
