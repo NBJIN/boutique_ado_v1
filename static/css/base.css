@@ -237,12 +237,11 @@ input[name='q']::placeholder {
 	color: #17a2b8; /* text-info */
 }
 
+/* Product Form */
 
-/* Product Form  */
 .btn-file {
     position: relative;
     overflow: hidden;
-
 }
 
 .btn-file input[type="file"] {
@@ -266,10 +265,6 @@ input[name='q']::placeholder {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
-
-
-
-
 }
 
 
