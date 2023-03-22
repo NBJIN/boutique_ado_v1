@@ -123,10 +123,6 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
 
-Database = {
-'https://docs.djangoproject.com/en/3.2/ref/settings/#databases'
-}
-
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
@@ -139,10 +135,6 @@ else:
         }
     }
 
- DATABASES = {
-     'default': dj_database_url.parse('postgres://hiqzhsre:9uwM-gnPP2grBECh6iUbu0vaXPkfbBcG@trumpet.db.elephantsql.com/hiqzhsre')
- }
-   
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -184,9 +176,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static')),
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-
-
-# Stripe 
+# Stripe
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
